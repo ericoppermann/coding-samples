@@ -5,4 +5,4 @@ on:
 
 jobs:
   build-and-test:
-    uses: ./.github/workflows/callable-build-and-test.yml
+    uses: ./.github/workflows/callable-lint-and-test.yml
