@@ -1,0 +1,8 @@
+name: Push
+
+on:
+  push:
+
+jobs:
+  build-and-test:
+    uses: ./.github/workflows/callable-lint-and-test.yml
